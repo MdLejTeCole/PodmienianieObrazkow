@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Obrazki\o1.png" />
+    <None Remove="Obrazki\o10.png" />
+    <None Remove="Obrazki\o11.png" />
+    <None Remove="Obrazki\o12.png" />
+    <None Remove="Obrazki\o13.png" />
+    <None Remove="Obrazki\o14.png" />
+    <None Remove="Obrazki\o15.png" />
+    <None Remove="Obrazki\o16.png" />
+    <None Remove="Obrazki\o17.png" />
+    <None Remove="Obrazki\o2.png" />
+    <None Remove="Obrazki\o3.png" />
+    <None Remove="Obrazki\o4.png" />
+    <None Remove="Obrazki\o5.png" />
+    <None Remove="Obrazki\o6.png" />
+    <None Remove="Obrazki\o7.png" />
+    <None Remove="Obrazki\o9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Obrazki\o7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Obrazki\o1.png" />
+    <EmbeddedResource Include="Obrazki\o10.png" />
+    <EmbeddedResource Include="Obrazki\o11.png" />
+    <EmbeddedResource Include="Obrazki\o12.png" />
+    <EmbeddedResource Include="Obrazki\o13.png" />
+    <EmbeddedResource Include="Obrazki\o14.png" />
+    <EmbeddedResource Include="Obrazki\o15.png" />
+    <EmbeddedResource Include="Obrazki\o16.png" />
+    <EmbeddedResource Include="Obrazki\o17.png" />
+    <EmbeddedResource Include="Obrazki\o2.png" />
+    <EmbeddedResource Include="Obrazki\o3.png" />
+    <EmbeddedResource Include="Obrazki\o4.png" />
+    <EmbeddedResource Include="Obrazki\o5.png" />
+    <EmbeddedResource Include="Obrazki\o6.png" />
+    <EmbeddedResource Include="Obrazki\o8.png" />
+    <EmbeddedResource Include="Obrazki\o9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Page1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Page2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

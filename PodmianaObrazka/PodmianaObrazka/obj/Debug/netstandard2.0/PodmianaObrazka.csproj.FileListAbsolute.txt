@@ -1,0 +1,14 @@
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\bin\Debug\netstandard2.0\PodmianaObrazka.deps.json
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\bin\Debug\netstandard2.0\PodmianaObrazka.dll
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\bin\Debug\netstandard2.0\PodmianaObrazka.pdb
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.csproj.CoreCompileInputs.cache
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.AssemblyInfoInputs.cache
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.AssemblyInfo.cs
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.dll
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.pdb
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.csprojAssemblyReference.cache
