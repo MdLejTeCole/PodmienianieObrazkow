@@ -19,101 +19,101 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <ImageButton x:Name="przycisk1"
-                    Grid.Column="0"
-                    Grid.Row="0"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{Binding MyProperty1}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="0"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty1}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk2"
-                    Grid.Column="1"
-                    Grid.Row="0"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{Binding MyProperty2}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="1"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty2}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk3"
-                    Grid.Column="2"
-                    Grid.Row="0"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{Binding MyProperty3}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="2"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty3}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk4"
-                    Grid.Column="3"
-                    Grid.Row="0"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{Binding MyProperty4}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="3"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty4}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk5"
-                    Grid.Column="0"
-                    Grid.Row="1"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{Binding MyProperty5}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="0"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty5}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk6"
-                    Grid.Column="1"
-                    Grid.Row="1"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{Binding MyProperty6}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty6}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk7"
-                    Grid.Column="2"
-                    Grid.Row="1"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o7.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="2"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty7}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk8"
-                    Grid.Column="3"
-                    Grid.Row="1"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o8.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="3"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty8}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk9"
-                    Grid.Column="0"
-                    Grid.Row="2"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o9.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="0"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty9}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk10"
-                    Grid.Column="1"
-                    Grid.Row="2"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o10.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="1"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty10}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk11"
-                    Grid.Column="2"
-                    Grid.Row="2"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o11.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="2"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty11}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk12"
-                    Grid.Column="3"
-                    Grid.Row="2"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o12.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="3"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty12}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk13"
-                    Grid.Column="0"
-                    Grid.Row="3"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o13.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="0"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty13}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk14"
-                    Grid.Column="1"
-                    Grid.Row="3"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o14.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="1"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty14}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk15"
-                    Grid.Column="2"
-                    Grid.Row="3"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o15.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="2"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty15}"
+                   Aspect="Fill"/>
             <ImageButton x:Name="przycisk16"
-                    Grid.Column="3"
-                    Grid.Row="3"
-                    Clicked="Przycisk1_Clicked"
-                    Source="{local:ImageResource PodmianaObrazka.Obrazki.o16.png}"
-                    Aspect="AspectFill"/>
+                   Grid.Column="3"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty16}"
+                   Aspect="Fill"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
