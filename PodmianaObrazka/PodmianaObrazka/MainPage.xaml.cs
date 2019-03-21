@@ -23,5 +23,10 @@ namespace PodmianaObrazka
         {
             Navigation.PushAsync(new Page2());
         }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page3());
+        }
     }
 }

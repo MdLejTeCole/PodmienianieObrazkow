@@ -12,3 +12,4 @@ C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazk
 C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.dll
 C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.pdb
 C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\PodmianaObrazka.csprojAssemblyReference.cache
+C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka\obj\Debug\netstandard2.0\Page3.xaml.g.cs

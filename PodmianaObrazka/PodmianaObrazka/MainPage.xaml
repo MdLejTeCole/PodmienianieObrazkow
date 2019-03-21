@@ -11,7 +11,8 @@
                 Clicked="Button_Clicked"/>
         <Button Text="Graj Poziom hard"
                 Clicked="Button_Clicked_1"/>
-
+        <Button Text="Graj troche inaczej"
+                Clicked="Button_Clicked_2"/>
     </StackLayout>
 
 </ContentPage>

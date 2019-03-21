@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PodmianaObrazka.Page3">
+    <ContentPage.Content>
+        <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            <Label 
+                   Text="Liczba ruchów:"
+                   Grid.Column="4"
+                   Grid.Row="1"
+                   HorizontalOptions="Center"
+                   FontSize="Large"/>
+            <Label x:Name="iloscruchow"
+                   Grid.Column="4"
+                   Grid.Row="2"
+                   HorizontalOptions="Center"
+                   FontSize="Large"/>
+            <ImageButton x:Name="przycisk1"
+                   Grid.Column="0"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty1}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk2"
+                   Grid.Column="1"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty2}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk3"
+                   Grid.Column="2"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty3}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk4"
+                   Grid.Column="3"
+                   Grid.Row="0"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty4}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk5"
+                   Grid.Column="0"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty5}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk6"
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty6}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk7"
+                   Grid.Column="2"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty7}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk8"
+                   Grid.Column="3"
+                   Grid.Row="1"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty8}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk9"
+                   Grid.Column="0"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty9}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk10"
+                   Grid.Column="1"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty10}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk11"
+                   Grid.Column="2"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty11}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk12"
+                   Grid.Column="3"
+                   Grid.Row="2"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty12}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk13"
+                   Grid.Column="0"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty13}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk14"
+                   Grid.Column="1"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty14}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk15"
+                   Grid.Column="2"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty15}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+                <ImageButton x:Name="przycisk16"
+                   Grid.Column="3"
+                   Grid.Row="3"
+                   Clicked="Przycisk1_Clicked"
+                   Source="{Binding Path=MyProperty16}"
+                   Aspect="Fill"
+                   BorderWidth = "2"/>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>
