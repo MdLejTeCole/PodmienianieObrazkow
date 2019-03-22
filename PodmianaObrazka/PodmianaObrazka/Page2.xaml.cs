@@ -15,69 +15,54 @@ namespace PodmianaObrazka
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page2 : ContentPage
     {
-        string[] zrodla = new string[16];
-        ImageButton[] nazwy = new ImageButton[16];
+        //Gra polegająca na podmianie obrazków i ułożeniu ich w odpowiedniej kolejności
+        //Plansza 4x4 obrazki Osadzone
+        string[] zrodlaObrazkow = new string[16];
+        ImageButton[] nazwyButton = new ImageButton[16];
         int[] licz = new int[16];
         int a = 0;
         int b = 0;
         bool pierwszy = true;
-        PropertyInfo[] myPropertyInfo;
-        Page2ViewModel viewModel = new Page2ViewModel();
+        PropertyInfo[] tablicaAtrybutow;
+        Page2ViewModel daneDlaWidoku = new Page2ViewModel();
         public Page2()
         {
-            BindingContext = viewModel;
+            BindingContext = daneDlaWidoku;
             InitializeComponent();
 
-            viewModel.MyProperty1 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o1.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty2 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o2.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty3 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o3.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty4 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o4.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty5 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o5.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty6 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o6.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty7 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o7.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty8 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o8.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty9 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o9.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty10 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o10.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty11 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o11.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty12 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o12.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty13 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o13.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty14 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o14.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty15 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o15.png", typeof(Page2).GetTypeInfo().Assembly);
-            viewModel.MyProperty16 = ImageSource.FromResource("PodmianaObrazka.Obrazki.o16.png", typeof(Page2).GetTypeInfo().Assembly);
+            nazwyButton[0] = przycisk1;
+            nazwyButton[1] = przycisk2;
+            nazwyButton[2] = przycisk3;
+            nazwyButton[3] = przycisk4;
+            nazwyButton[4] = przycisk5;
+            nazwyButton[5] = przycisk6;
+            nazwyButton[6] = przycisk7;
+            nazwyButton[7] = przycisk8;
+            nazwyButton[8] = przycisk9;
+            nazwyButton[9] = przycisk10;
+            nazwyButton[10] = przycisk11;
+            nazwyButton[11] = przycisk12;
+            nazwyButton[12] = przycisk13;
+            nazwyButton[13] = przycisk14;
+            nazwyButton[14] = przycisk15;
+            nazwyButton[15] = przycisk16;
 
-            nazwy[0] = przycisk1;
-            nazwy[1] = przycisk2;
-            nazwy[2] = przycisk3;
-            nazwy[3] = przycisk4;
-            nazwy[4] = przycisk5;
-            nazwy[5] = przycisk6;
-            nazwy[6] = przycisk7;
-            nazwy[7] = przycisk8;
-            nazwy[8] = przycisk9;
-            nazwy[9] = przycisk10;
-            nazwy[10] = przycisk11;
-            nazwy[11] = przycisk12;
-            nazwy[12] = przycisk13;
-            nazwy[13] = przycisk14;
-            nazwy[14] = przycisk15;
-            nazwy[15] = przycisk16;
-
-            zrodla[0] = "PodmianaObrazka.Obrazki.o1.png";
-            zrodla[1] = "PodmianaObrazka.Obrazki.o2.png";
-            zrodla[2] = "PodmianaObrazka.Obrazki.o3.png";
-            zrodla[3] = "PodmianaObrazka.Obrazki.o4.png";
-            zrodla[4] = "PodmianaObrazka.Obrazki.o5.png";
-            zrodla[5] = "PodmianaObrazka.Obrazki.o6.png";
-            zrodla[6] = "PodmianaObrazka.Obrazki.o7.png";
-            zrodla[7] = "PodmianaObrazka.Obrazki.o8.png";
-            zrodla[8] = "PodmianaObrazka.Obrazki.o9.png";
-            zrodla[9] = "PodmianaObrazka.Obrazki.o10.png";
-            zrodla[10] = "PodmianaObrazka.Obrazki.o11.png";
-            zrodla[11] = "PodmianaObrazka.Obrazki.o12.png";
-            zrodla[12] = "PodmianaObrazka.Obrazki.o13.png";
-            zrodla[13] = "PodmianaObrazka.Obrazki.o14.png";
-            zrodla[14] = "PodmianaObrazka.Obrazki.o15.png";
-            zrodla[15] = "PodmianaObrazka.Obrazki.o16.png";
+            zrodlaObrazkow[0] = "PodmianaObrazka.Obrazki.o1.png";
+            zrodlaObrazkow[1] = "PodmianaObrazka.Obrazki.o2.png";
+            zrodlaObrazkow[2] = "PodmianaObrazka.Obrazki.o3.png";
+            zrodlaObrazkow[3] = "PodmianaObrazka.Obrazki.o4.png";
+            zrodlaObrazkow[4] = "PodmianaObrazka.Obrazki.o5.png";
+            zrodlaObrazkow[5] = "PodmianaObrazka.Obrazki.o6.png";
+            zrodlaObrazkow[6] = "PodmianaObrazka.Obrazki.o7.png";
+            zrodlaObrazkow[7] = "PodmianaObrazka.Obrazki.o8.png";
+            zrodlaObrazkow[8] = "PodmianaObrazka.Obrazki.o9.png";
+            zrodlaObrazkow[9] = "PodmianaObrazka.Obrazki.o10.png";
+            zrodlaObrazkow[10] = "PodmianaObrazka.Obrazki.o11.png";
+            zrodlaObrazkow[11] = "PodmianaObrazka.Obrazki.o12.png";
+            zrodlaObrazkow[12] = "PodmianaObrazka.Obrazki.o13.png";
+            zrodlaObrazkow[13] = "PodmianaObrazka.Obrazki.o14.png";
+            zrodlaObrazkow[14] = "PodmianaObrazka.Obrazki.o15.png";
+            zrodlaObrazkow[15] = "PodmianaObrazka.Obrazki.o16.png";
             Wymieszaj();
         }
         private void Wymieszaj()
@@ -118,14 +103,14 @@ namespace PodmianaObrazka
             }
             
 
-            myPropertyInfo = Type.GetType("PodmianaObrazka.Page2ViewModel").GetProperties();
-            object value = myPropertyInfo[a].GetValue(viewModel, null);
+            tablicaAtrybutow = Type.GetType("PodmianaObrazka.Page2ViewModel").GetProperties();
+            object wartosc = tablicaAtrybutow[a].GetValue(daneDlaWidoku, null);
             
 
             for (int i = 0; i < 16; i++)
             {
                 
-                myPropertyInfo[i].SetValue(viewModel, ImageSource.FromResource(zrodla[licz[i]], typeof(Page2).GetTypeInfo().Assembly));
+                tablicaAtrybutow[i].SetValue(daneDlaWidoku, ImageSource.FromResource(zrodlaObrazkow[licz[i]], typeof(Page2).GetTypeInfo().Assembly));
             }
         }
         private async void Sprawdz()
@@ -144,8 +129,8 @@ namespace PodmianaObrazka
                 }
                 if (dobrzeUlozone == 16)
                 {
-                    var action = await DisplayActionSheet("Wygraleś", "Cancel", null, "Zagraj jezscze raz", "Wróć do gry", "Wyjdz");
-                    switch (action)
+                    var akcja = await DisplayActionSheet("Wygraleś", "Cancel", null, "Zagraj jezscze raz", "Wróć do gry", "Wyjdz");
+                    switch (akcja)
                     {
                         case "Zagraj jezscze raz":
 
@@ -165,13 +150,13 @@ namespace PodmianaObrazka
         }
         private void Przycisk1_Clicked(object sender, EventArgs e)
         {
-            ImageButton p = sender as ImageButton;
+            ImageButton pobranyPrzycisk = sender as ImageButton;
 
             if (pierwszy == true)
             {
                 for (int i = 0; i < 16; i++)
                 {
-                    if (p.Source == nazwy[i].Source)
+                    if (pobranyPrzycisk.Source == nazwyButton[i].Source)
                     {
                         a = i;
                     }
@@ -182,18 +167,16 @@ namespace PodmianaObrazka
             {
                 for (int i = 0; i < 16; i++)
                 {
-                    if (p.Source == nazwy[i].Source)
+                    if (pobranyPrzycisk.Source == nazwyButton[i].Source)
                     {
                         b = i;
                     }
                 }
-
-                
-
-                myPropertyInfo = Type.GetType("PodmianaObrazka.Page2ViewModel").GetProperties();
-                object value = myPropertyInfo[a].GetValue(viewModel, null);
-                myPropertyInfo[a].SetValue(viewModel, ImageSource.FromResource(zrodla[licz[b]], typeof(Page2).GetTypeInfo().Assembly));
-                myPropertyInfo[b].SetValue(viewModel, ImageSource.FromResource(zrodla[licz[a]], typeof(Page2).GetTypeInfo().Assembly));
+               
+                tablicaAtrybutow = Type.GetType("PodmianaObrazka.Page2ViewModel").GetProperties();
+                object value = tablicaAtrybutow[a].GetValue(daneDlaWidoku, null);
+                tablicaAtrybutow[a].SetValue(daneDlaWidoku, ImageSource.FromResource(zrodlaObrazkow[licz[b]], typeof(Page2).GetTypeInfo().Assembly));
+                tablicaAtrybutow[b].SetValue(daneDlaWidoku, ImageSource.FromResource(zrodlaObrazkow[licz[a]], typeof(Page2).GetTypeInfo().Assembly));
                 int c = licz[a];
                 licz[a] = licz[b];
                 licz[b] = c;
