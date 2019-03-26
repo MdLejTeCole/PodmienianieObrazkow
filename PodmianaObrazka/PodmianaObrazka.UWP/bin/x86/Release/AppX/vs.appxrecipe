@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-03-20T11:54:17.267</Modified>
+      <Modified>2019-03-23T20:13:53.843</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -175,19 +175,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka.UWP\bin\x86\Release\ilc\PodmianaObrazka.UWP.dll">
       <PackagePath>PodmianaObrazka.UWP.dll</PackagePath>
-      <Modified>2019-03-20T11:54:15.573</Modified>
+      <Modified>2019-03-23T20:13:52.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka.UWP\bin\x86\Release\ilc\PodmianaObrazka.UWP.exe">
       <PackagePath>PodmianaObrazka.UWP.exe</PackagePath>
-      <Modified>2019-03-20T11:54:17.133</Modified>
+      <Modified>2019-03-23T20:13:53.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka.UWP\bin\x86\Release\ilc\PodmianaObrazka.UWP.pdb">
       <PackagePath>PodmianaObrazka.UWP.pdb</PackagePath>
-      <Modified>2019-03-20T11:54:17.122</Modified>
+      <Modified>2019-03-23T20:13:53.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mdlejtecole\source\repos\PodmianaObrazka\PodmianaObrazka\PodmianaObrazka.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-03-20T11:52:49.742</Modified>
+      <Modified>2019-03-23T20:12:12.281</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

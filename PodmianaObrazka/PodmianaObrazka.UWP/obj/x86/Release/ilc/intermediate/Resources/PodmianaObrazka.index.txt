@@ -1,0 +1,18 @@
+PodmianaObrazka, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  PodmianaObrazka.Obrazki.o7.png
+  PodmianaObrazka.Obrazki.o1.png
+  PodmianaObrazka.Obrazki.o10.png
+  PodmianaObrazka.Obrazki.o11.png
+  PodmianaObrazka.Obrazki.o12.png
+  PodmianaObrazka.Obrazki.o13.png
+  PodmianaObrazka.Obrazki.o14.png
+  PodmianaObrazka.Obrazki.o15.png
+  PodmianaObrazka.Obrazki.o16.png
+  PodmianaObrazka.Obrazki.o17.png
+  PodmianaObrazka.Obrazki.o2.png
+  PodmianaObrazka.Obrazki.o3.png
+  PodmianaObrazka.Obrazki.o4.png
+  PodmianaObrazka.Obrazki.o5.png
+  PodmianaObrazka.Obrazki.o6.png
+  PodmianaObrazka.Obrazki.o8.png
+  PodmianaObrazka.Obrazki.o9.png
